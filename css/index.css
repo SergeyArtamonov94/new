@@ -85,5 +85,13 @@ body {
 }
 
 .plan {
-    max-width: 10px;
+    height: 28px;
+    width: auto;
+    border-radius: 25%;
+    transition: border-radius 0.2s linear ;
+    background-color: rgb(245, 215, 124);
+}
+.img_nav:hover {
+    border-radius: 50%;
+    opacity: 0.8;   
 }
