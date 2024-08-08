@@ -85,13 +85,13 @@ body {
 }
 
 .plan {
-    height: 30px;
+    height: 40px;
     width: auto;
-    border-radius: 25%;
+    border-radius: 90%;
     transition: border-radius 0.2s linear ;
     background-color: rgb(245, 215, 124);
 }
 .plan:hover {
-    border-radius: 50%;
+    color: black;
     opacity: 0.8;   
 }
