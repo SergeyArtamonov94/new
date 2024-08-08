@@ -95,3 +95,14 @@ body {
     color: black;
     opacity: 0.8;   
 }
+.reporting {
+    height: 40px;
+    width: auto;
+    border-radius: 90%;
+    transition: border-radius 0.2s linear ;
+    background-color: rgb(245, 215, 124);
+}
+.reporting:hover {
+    color: black;
+    opacity: 0.8;   
+}
