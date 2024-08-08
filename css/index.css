@@ -86,6 +86,7 @@ body {
 
 .plan {
     height: 40px;
+    color: white;
     width: auto;
     border-radius: 90%;
     transition: border-radius 0.2s linear ;
@@ -97,6 +98,7 @@ body {
 }
 .reporting {
     height: 40px;
+    color: white;
     width: auto;
     border-radius: 90%;
     transition: border-radius 0.2s linear ;
