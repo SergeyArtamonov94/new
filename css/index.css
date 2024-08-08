@@ -49,14 +49,12 @@ body {
 }
 .about h3 {
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--about_title_color);
 }
 .about p {
     display: block;
     overflow-wrap: break-word;
     text-align: center;
     font-family: 'Rubik', sans-serif; 
-    color: var(--about_title_p_color);
 }
 
 .about_plan {
