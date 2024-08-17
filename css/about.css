@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* font-family: 'Mulish', sans-serif; */
+
+:root {
+  --orange: rgb(245, 215, 124);
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  font-family: "Mulish", sans-serif;
+}
+
+.about_size {
+  text-align: center;
+  column-count: 2;
+  width: 1200px;
+}
+.about_teams {
+  max-width: 600px;
+}
+.about_size_left {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+.about_size p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.about_size h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.about_h3_orange h3 {
+  color: var(--orange);
+  font-size: 32px;
+}
+
+.about_size2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #9690a20f;
+  margin-top: 40px;
+}
+.about_size2 H2 {
+  margin-top: 40px;
+  text-align: center;
+}
+.about_size2_left {
+  text-align: left;
+  column-count: 1;
+}
+
+/* Accordion */
+
+.accordion__item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion__item.active .accordion__content {
+  display: block;
+  transition: all 1s linear;
+}
+
+.accordion__item.active .accordion__header {
+  border-bottom-color: #e5e5e5;
+}
+
+.accordion__item.active .accordion__header:after {
+  transform: translateY(-50%) rotate(-45deg);
+  margin-top: 5px;
+}
+
+.accordion__header {
+  padding: 15px 0;
+  position: relative;
+  cursor: pointer;
+  background-color: #9690a214;
+}
+
+.accordion__header:after {
+  content: "";
+
+  width: 16px;
+  height: 16px;
+
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 1;
+
+  transform: translateY(-50%) rotate(135deg);
+}
+
+.accordion__content {
+  display: none;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.accordion__title {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+
