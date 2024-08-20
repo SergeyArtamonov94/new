@@ -36,6 +36,7 @@ body {
   display: none;
 }
 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -257,32 +258,30 @@ header .nav a:hover {
 }
 
 .accordion__item.active .accordion__header:after {
-  transform: translateY(-50%) rotate(-45deg);
-  margin-top: 5px;
+  content: "-";
+  width: 40px;
+  
 }
 
 .accordion__header {
   padding: 15px 0;
+  font-size: 30px;
+  padding-left: 15px;
   position: relative;
-  cursor: pointer;
+
   background-color: #9690a214;
 }
 
 .accordion__header:after {
-  content: "";
-
-  width: 16px;
-  height: 16px;
-
-  border-top: 2px solid #ccc;
-  border-right: 2px solid #ccc;
-
+  content: "+";
+  margin-top: 5px;
+  
   position: absolute;
-  top: 50%;
+  top: 0%;
   right: 20px;
   z-index: 1;
-
-  transform: translateY(-50%) rotate(135deg);
+  width: 40px;
+  text-align: center;
 }
 
 .accordion__content {
