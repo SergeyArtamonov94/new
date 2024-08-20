@@ -3,8 +3,8 @@
 /* font-family: 'Mulish', sans-serif; */
 
 :root {
-  --orange: #FEA617;
- /*  --orange: rgb(245, 215, 124); */
+  --orange: #fea617;
+  /*  --orange: rgb(245, 215, 124); */
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 #burger-checkbox {
-  display: none; 
+  display: none;
 }
 
 .header {
@@ -44,13 +44,11 @@ body {
   padding: 30px 24px 30px 24px;
 }
 header .nav {
-  display: none;  
- 
+  display: none;
 }
 header input:checked ~ .nav {
   display: flex;
-
-} 
+}
 /* @media (max-width: 610px) {
   header input:checked ~ .nav {
       display: flex;
@@ -76,19 +74,16 @@ header input:checked ~ .nav {
 
 } */
 
-
 header .nav {
   flex-direction: column;
-  
 }
-
 
 header .nav a {
   font-size: 16px;
   text-decoration: none;
   color: rgb(29, 31, 42);
   font-weight: 500;
-  font-family: 'Mulish', sans-serif;   
+  font-family: "Mulish", sans-serif;
   padding: 20px;
   transition: color 0.2s linear;
   white-space: nowrap;
@@ -99,58 +94,52 @@ header .nav a:hover {
 
 @media (min-width: 610px) {
   .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  padding: 30px 40px 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 30px 40px 30px 40px;
   }
-  
-  
+
   header nav {
-      display: flex;
+    display: flex;
   }
 
   .burger-icon {
-      display: none;
+    display: none;
   }
 
   header .nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-      flex: 0.4;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0.4;
   }
   .img_nav_burger {
-      display: flex;
+    display: flex;
   }
-  
 }
-
 
 /* button */
 .buttons {
-  display: flex; 
+  display: flex;
   padding-left: 24px;
   margin-top: 5px;
 }
 
-
-
 .buttons_map {
   background-color: var(--orange);
-  
+
   color: white;
   background-color: black;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   border-style: solid;
   border-radius: 5px;
   height: 40px;
   width: 180px;
   font-size: 14px;
   font-weight: 500;
-     
 }
 .buttons_map:hover {
   background-color: var(--orange);
@@ -159,8 +148,8 @@ header .nav a:hover {
 }
 @media (max-width: 290px) {
   .buttons_map {
-      margin: auto;
-      width: 100%!important;
+    margin: auto;
+    width: 100% !important;
   }
 }
 
@@ -171,16 +160,16 @@ header .nav a:hover {
   justify-content: center;
   margin-top: 30px;
   font-size: 40px;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   margin-bottom: 30px;
 }
 
 .text {
- margin-left: 15px;
+  margin-left: 15px;
   width: 170px;
   color: var(--orange);
   font-size: 40px;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   white-space: nowrap; /* не переносить текст на другую строку */
   overflow: hidden; /* скрываем переполнение контентом */
   border-right: 3px solid white; /* рисуем курсор */
@@ -208,7 +197,6 @@ header .nav a:hover {
   }
 }
 /* ABOUT */
-
 
 .about_size {
   text-align: center;
@@ -312,5 +300,3 @@ header .nav a:hover {
   font-weight: 400;
   margin-left: 20px;
 }
-
-
