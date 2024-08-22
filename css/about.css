@@ -314,3 +314,27 @@ header .nav a:hover {
   font-weight: 400;
   margin-left: 20px;
 }
+
+/* carousel */
+.carousel {
+  width: auto;
+  max-height: 300px;
+  overflow: hidden;
+}
+.wrapper2 img{
+  max-height: 100px;
+  width: auto;
+  padding: 0px 10px 20px 10px;
+}
+
+.wrapper2 {
+  display: flex;
+  max-width: 600px;
+  animation: roll 15s linear infinite;
+}
+
+@keyframes roll {
+  to {
+    transform: translate(calc(-4 * 15rem));
+  }
+}
